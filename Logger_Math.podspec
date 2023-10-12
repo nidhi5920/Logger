@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "Logger"
+  spec.name         = "Logger_Math"
   spec.version      = "1.0.0"
   spec.summary      = "Logger is a framework that print the message in console"
 
