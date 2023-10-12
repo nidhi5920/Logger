@@ -1,0 +1,106 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Logger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogProtocol",
+        "printedName": "LogProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printLog",
+            "printedName": "printLog(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Logger11LogProtocolP05printB07messageySS_tF",
+            "mangledName": "$s6Logger11LogProtocolP05printB07messageySS_tF",
+            "moduleName": "Logger",
+            "genericSig": "<τ_0_0 where τ_0_0 : Logger.LogProtocol>",
+            "sugared_genericSig": "<Self where Self : Logger.LogProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printLog",
+            "printedName": "printLog(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Logger11LogProtocolPAAE05printB07messageySS_tF",
+            "mangledName": "$s6Logger11LogProtocolPAAE05printB07messageySS_tF",
+            "moduleName": "Logger",
+            "genericSig": "<τ_0_0 where τ_0_0 : Logger.LogProtocol>",
+            "sugared_genericSig": "<Self where Self : Logger.LogProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Logger11LogProtocolP",
+        "mangledName": "$s6Logger11LogProtocolP",
+        "moduleName": "Logger",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nidhisharma\/Desktop\/Distribution\/CocoaPods\/Framework\/Logger\/Logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 17,
+      "value": "\"#### \""
+    },
+    {
+      "filePath": "\/Users\/nidhisharma\/Desktop\/Distribution\/CocoaPods\/Framework\/Logger\/Logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
